@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none; 
+    
+}
+
+body {
+    background: #393636;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.nav-first {
+    color: white;
+    display: flex;
+}
+
+.nav-first-title {
+    font-family: 'RR';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+    padding-left: 5px;
+}
+
+.nav {
+    padding-top: 18px;
+    display: flex;
+    padding-bottom: 19px;
+    justify-content: space-between;
+}
+
+.nav-second {
+    display: flex;
+    
+}
+.nav__1 {
+    background: #00000080;
+    
+}
+
+.nav-link a {
+
+    color: white;
+}
+
+.nav-link {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    text-align: right;
+    padding-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav__2 {
+    background: #00000080;
+    padding: 6px 0 ;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.nav-glav {
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.logo {
+    padding: 12px 18px;
+    background: #0A9418BF;
+    display: block;
+    background: rgba(10, 148, 24, 0.75);
+border: 4px solid #06600F;
+box-sizing: border-box;
+border-radius: 4px;
+    
+font-family: 'RR';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 30px;
+/* identical to box height, or 83% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.nav-third-links {
+    display: flex;
+    color: white;
+}
+
+.nav-third-link {  
+    /* padding-left: 28px; */
+padding: 24px 22px; 
+text-align: center;
+}
+
+.nav-third-link:hover {
+background: #69CF17BF;
+padding: 24px 22px;
+}
+
+.third-link {
+    color: white;
+}
+
+.main {
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+
+.main-info {
+    padding-top: 167px;
+}
+
+.main-title {
+    font-family: 'MB';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 85px;
+/* identical to box height */
+
+
+color: #69CF17;
+}
+
+.main-title-2 {
+    padding-top: 18px;
+    font-family: 'MR';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 17px;
+/* or 47% */
+
+
+color: #69CF17;
+
+}
+
+.main-title-3 {
+    padding-top: 18px;
+    font-family: 'MR';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+color: #FFFFFF;
+}
+
+.main-button-1 {
+background: rgba(105, 207, 23, 0.5);
+padding: 33px 76px;
+font-family: 'MT';
+}
+
+.main-buttons {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-button_1 {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+display: flex;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+.main-button-2 {
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+border-radius: 6px;
+display: flex;
+align-items: center;
+}
+
+.main-button_2 {
+    
+font-family: 'MR';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+text-align: right;
+padding: 15px 70px;
+color: #FFFFFF;
+}
+
+.main-link {
+    padding-left: 21px;
+    position: relative;
+}
+
+.main-nav-links {
+    padding-top: 20px;
+    background-color: #292929;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.main-links {
+
+    padding-left: 30px; 
+}
+.main-link{
+    color: white;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: 'RR';
+      padding: 21px 0;
+    position: relative;
+    
+}
+.main-link::after{
+    content: '';
+    height: 1px;
+    width:0;
+    background:white;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    transition: 0.5s;
+    
+}
+.main-link:hover::after{
+    width: 100%;
+}
+.blocks {
+    padding-top: 15px;
+    display: flex;
+
+   padding-left: 15px;
+   flex-wrap: wrap;
+}
+
+.block {
+    margin-top: 30px;
+    background: #0C0C0C;
+width: 370px;
+margin-left: 30px;
+height: 524px;
+}
+
+
+.img {
+position: relative;
+padding: 15px;
+    z-index: 1;
+
+}
+
+.img::after {
+content: '';
+    display: block;
+    width: 1000px;
+    z-index: -1;
+    height: 1003px;
+    background-color: #3FA5D5;
+    top: 0px;
+    position: absolute;
+}
+
+
+
+.block-p {
+    font-family: 'MR';
+    font-style: normal;
+    padding-left: 15px;
+font-weight: 700;
+font-size: 19px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+.block-p-2 {
+    padding: 15px;
+    font-family: 'MR';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+color: #FFFFFF;
+
+}
+
+.black {
+    background: #000000;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.filials {
+    font-family: 'MR';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 40px;
+/* identical to box height, or 80% */
+text-transform: uppercase;
+padding-bottom: 20px;
+color: #69CF17;
+text-align: center;
+padding: 20px 0;
+background: white;
+}
+
+.footer {
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    /* padding-bottom: 81px; */
+}
+
+.footer-content {
+background: rgba(10, 148, 24, 0.75);
+border: 4px solid #06600F;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+.footer-logo {
+    font-family: 'RR';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 30px;
+/* identical to box height, or 83% */
+padding: 12px 18px;
+
+
+color: #FFFFFF;
+}
+
+.footer-content-all {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.footer-tel {
+    font-family: 'RR';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.filials-title {
+    padding-bottom: 20px;
+}
+
+
+
+
+.about {
+    display: flex;
+    padding-top: 81px;
+    justify-content: center;
+}
+
+.footer-links {
+    padding-left: 20px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.proweb {
+    background: #1A3406;
+    margin-top: 81px;
+
+    padding: 19px 0;
+}
+
+.proweb-about {
+    font-family: 'RR';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}

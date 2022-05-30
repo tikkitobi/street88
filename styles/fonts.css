@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'MB';
+    src: url('../fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'MBB';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'MR';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MT';
+    src: url('../fonts/Montserrat-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'RB';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'RR';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
